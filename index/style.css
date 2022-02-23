@@ -40,43 +40,34 @@ justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 35px;
 }
+select{
+    border-top: none;
+    border-bottom: none;
+}
 /* ------------------------------------ section ------------------------------------------- */
+
 .internet{
     background-color: #000;
 }
 section .text4{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 10px;
 }
 section .text4 p{
     color: #fff;
 }
-.text4 img{
+/* .text4 img{
     padding-left: 10px;
     width: 30px;
     height: 30px;   
-}
-.text3{
-    margin-left: 200px;
-}
+} */
+
 /* --------------------------------------- section2 ---------------------------------------------- */
 .section2{
     margin-top: 40px;
 }
 .section2 .col3 .img1{
     margin-bottom: 15px;
-}
-.section2 .col3 img{
-    width: 270px;
-    height: 193px;
-}
-.section2 .col5 .img3{
-    width: 500px ;
-    height: 400px ;
-}
-.section2 .col4 .img4{
-    width: 500px ;
-    height: 400px ;
 }
