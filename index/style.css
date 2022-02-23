@@ -24,13 +24,16 @@ select{
 }
 .text1{
     margin-top: 25px;
+    
 }
 .text1 ul{
 display: flex;
 justify-content: space-between;
+
 }
 .text1 ul li a{
     color: #000;
+    text-decoration: none;
 }
 .coment{
     display: flex;
@@ -50,10 +53,8 @@ select{
     background-color: #000;
 }
 section .text4{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 10px;
+ margin-top: 10px;   
+ margin-left: 570px;
 }
 section .text4 p{
     color: #fff;
@@ -70,4 +71,27 @@ section .text4 p{
 }
 .section2 .col3 .img1{
     margin-bottom: 15px;
+}
+/* -------------------------------------------- section3 ---------------------------------------------- */
+.sc3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sc3 ul{
+display: flex;
+justify-content: space-between;
+}
+.sc3 ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 17px 26px;
+}
+.sc3 ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.sc_img{
+    background-color: #000;
+    padding-top: 28px;
 }
